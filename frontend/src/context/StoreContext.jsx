@@ -4,6 +4,7 @@ import { food_list } from '../assets/assets';
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
+  const url="https://dine-wc2q.onrender.com"
   const [cartItems, setCartItems] = useState(() => {
     const savedState = localStorage.getItem('storeState');
     return savedState ? JSON.parse(savedState).cartItems : {}; // Default to empty cart

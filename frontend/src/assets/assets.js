@@ -59,7 +59,7 @@
 // import bag_icon from './bag_icon.png'
 // import logout_icon from './logout_icon.png'
 // import parcel_icon from './parcel_icon.png'
-
+export const url="https://dine-wc2q.onrender.com"
 export const assets = {
     logo:"https://res.cloudinary.com/dy3g1sjfe/image/upload/v1721112973/logo_d5bzjh.png",
     basket_icon:"https://res.cloudinary.com/dy3g1sjfe/image/upload/v1721112951/basket_icon_wefkxh.png",
